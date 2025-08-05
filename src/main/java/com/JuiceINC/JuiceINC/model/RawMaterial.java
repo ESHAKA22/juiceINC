@@ -10,7 +10,7 @@ public class RawMaterial {
     private String name;
     private String category;
     private double unitPrice;
-    private String unit; // kg, pieces, etc.
+    private String unit; 
     private boolean available;
 
     public RawMaterial() {}
@@ -23,7 +23,6 @@ public class RawMaterial {
         this.available = true;
     }
 
-    // Getters and Setters
     public String getId() {
         return id;
     }

@@ -6,8 +6,8 @@ import java.util.Map;
 public class CustomProduct {
     private String id;
     private String name;
-    private String type; // salad, juice
-    private Map<String, Double> ingredients; // ingredient id -> quantity
+    private String type; 
+    private Map<String, Double> ingredients; 
     private double totalPrice;
     private String customerName;
     private String specialInstructions;
@@ -20,7 +20,6 @@ public class CustomProduct {
         this.ingredients = ingredients;
     }
 
-    // Getters and Setters
     public String getId() {
         return id;
     }
@@ -45,12 +44,10 @@ public class CustomProduct {
         this.type = type;
     }
 
-    // Legacy getter for backward compatibility
     public String getCategory() {
         return type;
     }
 
-    // Legacy setter for backward compatibility
     public void setCategory(String category) {
         this.type = category;
     }

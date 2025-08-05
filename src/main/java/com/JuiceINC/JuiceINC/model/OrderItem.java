@@ -6,7 +6,7 @@ public class OrderItem {
     private String category;
     private int quantity;
     private double price;
-    private String customIngredients; // For custom products
+    private String customIngredients; 
 
     public OrderItem() {}
 
@@ -23,7 +23,6 @@ public class OrderItem {
         this.customIngredients = customIngredients;
     }
 
-    // Getters and Setters
     public String getProductId() {
         return productId;
     }

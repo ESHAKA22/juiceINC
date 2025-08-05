@@ -10,7 +10,7 @@ public class Product {
     private String id;
     private String name;
     private String description;
-    private String category; // fruit_salad, fruit_juice, ice_cream
+    private String category; 
     private double price;
     private List<String> ingredients;
     private boolean available;
@@ -27,7 +27,6 @@ public class Product {
         this.available = true;
     }
 
-    // Getters and Setters
     public String getId() {
         return id;
     }

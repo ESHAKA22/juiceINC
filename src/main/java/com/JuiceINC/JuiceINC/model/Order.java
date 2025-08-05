@@ -12,7 +12,7 @@ public class Order {
     private CustomerInfo customerInfo;
     private List<OrderItem> items;
     private double totalAmount;
-    private String status; // pending, confirmed, completed, cancelled
+    private String status; 
     private LocalDateTime orderDate;
     private LocalDateTime deliveryDate;
 
@@ -34,7 +34,6 @@ public class Order {
                 .sum();
     }
 
-    // Getters and Setters
     public String getId() {
         return id;
     }

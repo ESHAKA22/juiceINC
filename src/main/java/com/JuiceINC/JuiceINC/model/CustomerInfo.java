@@ -19,7 +19,6 @@ public class CustomerInfo {
         this.postalCode = postalCode;
     }
 
-    // Getters and Setters
     public String getName() {
         return name;
     }
